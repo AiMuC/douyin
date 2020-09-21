@@ -15,4 +15,4 @@
 
 直接跳转:https://你的域名/douyin.php?url=https://v.douyin.com/JAxdnmK/&xz=1<br>
 
-返回结果:<img width="100%" src="https://i.loli.net/2020/09/21/G1xPDeK3Bwoi2ku.png"><br>
+返回结果:<img src="https://i.loli.net/2020/09/21/G1xPDeK3Bwoi2ku.png"><br>
