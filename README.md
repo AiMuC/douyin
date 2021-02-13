@@ -2,7 +2,8 @@
 抖音短视频/抖音火山版 视频无水印解析<br>
 
 # 新版使用示例
-使用示例<br>
+# 介绍
+新版简化了代码量,取消了抖音火山版的解析功能,如有需要可参考旧版实现方法在新本稍微修改即可!
 
 # 示例1 下载视频
 http://127.0.0.1/tiktok/api.php?type=dy&url=https://v.douyin.com/JKbBq7p/&output=download<br>
