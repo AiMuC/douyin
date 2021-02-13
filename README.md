@@ -1,12 +1,28 @@
 # douyin
 抖音短视频/抖音火山版 视频无水印解析<br>
 
-/*<br>
-//目前支持抖音，火山解析 默认不加参数为抖音解析<br>
-//参数表 $type=huoshan,<br>
-//状态码 403 空参数,404 解析出错,200 返回正常<br>
-//By:AiMuC QQ:1446929313<br>
-*/<br>
+# 新版使用示例
+使用示例<br>
+
+# 示例1 下载视频
+http://127.0.0.1/tiktok/api.php?type=dy&url=https://v.douyin.com/JKbBq7p/&output=download<br>
+output=download时将直接返回视频内容 可直接在浏览器中进行下载<br>
+如output值为空则默认返回Json<br>
+
+由于视频真实地址无法直接使用PC端访问,返回的视频由本地服务器请求返回,如需直接返回真实地址,请自行修改.<br>
+
+
+# 示例2 返回Json
+
+http://127.0.0.1/tiktok/api.php?type=dy&url=https://v.douyin.com/JKbBq7p/<br>
+此时未填入output则直接返回json内容<br>
+返回结果:<br>
+{"VideoSrc":"https:\/\/aweme.snssdk.com\/aweme\/v1\/play\/?video_id=v0d00f800000c0j3f4b8u75mn4nrugq0&ratio=720p&line=0","VideoTitle":"我这么会来事，今年我初几去？#花式拜年大赛","VideoImg":"https:\/\/p29.douyinpic.com\/tos-cn-p-0015\/976a209f7d354eda81190600add7787e_1613117332~tplv-dy-360p.jpeg?from=2563711402"}<br>
+
+返回的视频连接需要在手机端请求才能直接访问PC端无法直接打开!<br>
+
+
+# 旧版使用示例如下
 
 使用示例:https://你的域名/douyin.php?url=https://v.douyin.com/JAxdnmK/<br>
 
