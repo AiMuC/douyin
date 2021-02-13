@@ -33,7 +33,7 @@ http://127.0.0.1/tiktok/api.php?type=dy&url=https://v.douyin.com/JKbBq7p/<br>
 
 如无需弹窗可自行修改<br>
 
-仅供学习交流，严禁用于商业用途!<br>
+# 仅供学习交流，严禁用于商业用途!<br>
 
-看到的小伙伴帮忙点个star吧~~~
+# 看到的小伙伴帮忙点个star吧~~~
 
